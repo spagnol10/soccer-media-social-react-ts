@@ -1,10 +1,10 @@
 # About this project:
 
--This project is a social media platform designed for gamers, where users can comment on posts and give likes. It was developed as part of a Rocketseat course, utilizing React and TypeScript to build a modern and interactive web application.
+- This project is a social media platform designed for gamers, where users can comment on posts and give likes. It was developed as part of a Rocketseat course, utilizing React and TypeScript to build a modern and interactive web application.
 
--Este projeto é uma plataforma de mídia social voltada para jogadores, onde os usuários podem comentar em posts e dar likes. Foi desenvolvido a partir de um curso da Rocketseat, utilizando React e TypeScript para criar uma aplicação web moderna e interativa.
+- Este projeto é uma plataforma de mídia social voltada para jogadores, onde os usuários podem comentar em posts e dar likes. Foi desenvolvido a partir de um curso da Rocketseat, utilizando React e TypeScript para criar uma aplicação web moderna e interativa.
 
-
+![Print do projeto](./public/print.png)
 
 # React + TypeScript + Vite
 
