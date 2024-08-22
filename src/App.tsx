@@ -16,8 +16,8 @@ const posts: PostType[] = [
     content: [
       { type: 'paragraph', content: 'Hablas Manitos 👋' },
       { type: 'paragraph', content: 'Otro balón de oro para papá🚀' },
-      { type: 'link', content: '@Messi10' },
-      { type: 'img', content: 'https://uploads.maisgoias.com.br/2022/12/ba5389b6-messi-beija-a-taca-da-copa-do-mundo-1064x675.jpg'}
+      // { type: 'link', content: '@Messi10' },
+      { type: 'img', content: 'https://tmssl.akamaized.net/images/foto/galerie/lionel-messi-1711467863-132837.jpg?lm=1711467875'}
     ],
     publishedAt: new Date('2024-08-22 20:00:00'),
   },
@@ -31,8 +31,8 @@ const posts: PostType[] = [
     content: [
       { type: 'paragraph', content: 'Aoba Guri 👋' },
       { type: 'paragraph', content: 'Siiiiiuuu 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' },
-      { type: 'img', content: 'https://s2-ge.glbimg.com/r1HPaQYSUg6W66yjRdLR4-cWr7o=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/s/U/M3KThWSvmIobXeoIKrKw/2022-10-27t204304z-2106604607-up1eiar1ljqsg-rtrmadp-3-soccer-europa-mun-she-report.jpg'}
+      // { type: 'link', content: 'jane.design/doctorcare' },
+      { type: 'img', content: 'https://cdn.oantagonista.com/uploads/2024/08/cristiano-ronaldo_1724254669449-1024x576.jpg'}
     ],
     publishedAt: new Date('2024-08-22 21:00:00'),
   },

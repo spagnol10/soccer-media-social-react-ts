@@ -6,7 +6,7 @@ import {
   type InvalidEvent,
 } from "react";
 
-import { ptBR } from "date-fns/locale";
+import { ptBR, enUS  } from "date-fns/locale";
 import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
 
@@ -35,7 +35,7 @@ interface PostProps {
 }
 
 export function Post({ post }: PostProps) {
-  const [comments, setComments] = useState(["O mior!!"]);
+  const [comments, setComments] = useState(["🔥"]);
 
   const [newCommentText, setNewCommentText] = useState("");
 
@@ -48,7 +48,7 @@ export function Post({ post }: PostProps) {
   );
 
   const publishedDateRelativeToNow = formatDistanceToNow(post.publishedAt, {
-    locale: ptBR,
+    locale: enUS,
     addSuffix: true,
   });
 
@@ -108,9 +108,9 @@ export function Post({ post }: PostProps) {
               </p>
             );
           }
-          // else {
-          //   return <img src={line.content} alt="" className={styles.img} />;
-          // }
+          else {
+            return <img src={line.content} alt="" className={styles.img} />;
+          }
         })}
       </div>
 

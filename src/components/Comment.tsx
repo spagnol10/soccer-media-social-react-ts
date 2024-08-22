@@ -25,14 +25,14 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
     <div className={styles.comment}>
       <Avatar
         hasBorder={false}
-        src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSgxnyQxTw8ElZpkvvxVV0v_bZ4GhYdUmjTSFUpAIQXd5LIF9YxnujNL0n5F1G9EyMRhM4Rju_EazfWm7IpD_Qwfshvo5P2S2Jm8phxNA" 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Erling_Haaland_2023_%28cropped%29.jpg/440px-Erling_Haaland_2023_%28cropped%29.jpg" 
         />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
-              <strong>Diego Fernandes</strong>
+              <strong>Haaland</strong>
               <time
                 title='11 de Maio às 08:33'
                 dateTime="2022-05-11 08:33:24"> Commented last 1h 
@@ -52,6 +52,8 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
           </button>
         </footer>
       </div>
+      
     </div>
+    
   )
 }
