@@ -1,11 +1,12 @@
 import styles from "./Header.module.css";
 
-import igniteLogo from "../assets/ignitelogo.svg";
+// Vou retirar porque a vercel esta bugando para subir
+// import igniteLogo from "../assets/Ignitelogo.svg";
 
 export function Header() {
   return (
     <header className={styles.header}>
-      <img src={igniteLogo} alt="Logotipo do Ignite" />
+      <img src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" alt="Logotipo do Ignite" />
     </header>
   );  
 }
